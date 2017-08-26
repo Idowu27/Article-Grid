@@ -1,0 +1,20 @@
+input{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.notes{
+  border: 1px solid #000;
+  height: 200px;
+  width:200px;
+  display:inline-block;
+}
+
+
+.notes-box{
+  border: 1px solid #000;
+  height: 200px;
+  width:200px;
+  display:inline-block;
+}
