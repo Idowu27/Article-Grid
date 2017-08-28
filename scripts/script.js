@@ -1,25 +1,2 @@
-var btn = document.getElementById('btn');
-var note = document.getElementsByClassName('notes-box');
-var content = document.getElementById('results');
-
-var input = document.getElementById('notes');
-
-var close_btn = document.getElementById('close');
-
-btn.addEventListener('click', function(event){
-  var q = input.value;
-  var note_list = document.createElement('div');
-
-      note_list.className = 'notes-box';
-  content.appendChild(note_list);
-
-
-   note_list.innerHTML = '<div class="notes-box">' + q + ' <button id="close">Close</button></div>';
-
-
-});
-
-  close_btn.addEventListener('click', function(event){
-  note[0].remove();
-
-});
+, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.
