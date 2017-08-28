@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Note App</title>
-    <link rel="stylesheet" href="stylesheet/style.css">
-  </head>
-  <body>
-    <h1> Note App </h1>
-<input id="notes">
-<button id="btn"> Add Note</button>
-<div id="results">
- <div class="notes-box"> hello
-   <button class="close">Close</button>
-  </div>
-</div>
-<script src="scripts/script.js">
 
-</script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Article Grid</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="left col-md-4">
+        <div class="box ">
+          <div class="imags">
+            <img src="assets\imgs\man-left.png" alt="man">
+          </div>
+          <div class="text">
+            <p class="tag">TRAVEL </p>
+            <p class="info">Lorem ipsum dolor sitamet ameno.</p>
+            <div class="photo-text">
+              <img class="writer" src="assets\imgs\boy-left.png" alt="boy">
+              <div class="">
+                <p>Story by</p>
+                <i>Bob Patrick</i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="center col-md-4">
+        <div class="box">
+          <div class="imags">
+            <img src="assets\imgs\food-center.png" alt="man">
+          </div>
+          <div class="text">
+            <p class="tag">FOOD </p>
+            <p class="info">Sed ut perspiciatis unde omnis iste natus error sit volup accusantium doloremque laudantium.</p>
+            <div class="photo-text">
+              <img class="writer" src="assets\imgs\boy-center.png" alt="boy">
+              <div>
+                <p>Story by</p>
+                <i>James Mc Dwitt</i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right col-md-4 ">
+        <div class="box">
+          <div class="imags">
+            <img src="assets\imgs\city-right.png" alt="man">
+          </div>
+          <div class="text">
+            <p class="tag">FOOD </p>
+            <p class="info">Japan: Lorem ipsum dolore sit.</p>
+            <div class="photo-text">
+              <img class="writer" src="assets\imgs\girl-center.png" alt="boy">
+              <div>
+                <p>Story by</p>
+                <i>James Mc Dwitt</i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <button type="button" class="more" name="button">READ MORE STORIES</button>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
 </html>
